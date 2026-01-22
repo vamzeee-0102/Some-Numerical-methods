@@ -37,7 +37,9 @@ def rand_walk(n):
     #return Avg_R2, error
 
 rand_walk(10)
-'''n_list = [10, 20, 50, 100, 200]
+'''
+
+n_list = [10, 20, 50, 100, 200]
 rand_list = []
 error_list = []
 
@@ -60,6 +62,6 @@ plt.ylabel('log(<R^2>)')
 plt.legend()
 plt.show()
 
-print("Estimated ν =", nu)
 
 '''
+
